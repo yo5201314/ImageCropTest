@@ -1,0 +1,11 @@
+<h1>Image Lists</h1>
+
+<ul>
+<% @users.each do |user| %>
+<!-- user.name-->
+  <li><%= link_to :Detail, user %></li>
+  <%= image_tag user.avatar_url(:thumb) if user.avatar? %>
+<% end %>
+</ul>
+
+<p><%= link_to "Add Image", new_user_path %></p>

@@ -1,0 +1,23 @@
+<p>
+  <b>Image Name:</b>
+  <%= @user.name %>
+  <br />
+
+</p>
+<p>
+  <%= image_tag @user.avatar_url(:thumb) if @user.avatar? %>
+
+  <br />  
+  <b>Updated:</b>
+  <%= @user.updated_at %>
+  <br />
+  <b>Created:</b>
+  <%= @user.created_at %>
+  <br />
+
+</p>
+<p>
+  <%= link_to "Edit", edit_user_path(@user) %> |
+  <%= link_to "Destroy", @user, method: :delete, confirm: "Are you sure?" %> |
+  <%= link_to "View All", users_path %>
+</p>

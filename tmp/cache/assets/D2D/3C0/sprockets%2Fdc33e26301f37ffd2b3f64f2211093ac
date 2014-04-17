@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1397703444.9890954:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%bcacb965f475fc46ec05c4da4e765018I"logical_path;
+FI"Jcrop.gif;
+TI"pathname;
+FI")$root/vendor/assets/images/Jcrop.gif;
+TI"content_type;
+FI"image/gif;
+FI"
+mtime;
+FI"2014-04-17T10:49:57+08:00;
+FI"length;
+FI"329;
+FI"digest;
+F"%73eb46e77dad5920712310645207984dI"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5
